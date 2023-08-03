@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script defer src="main.js"></script>
+    <form class="wrapper" action="#" method="#">
+        <!-- form control number -->
+        <label class="title" for="conTemp">Value to Convert:</label>
+        <input type="number" id="conTemp">
+        <!-- select option -->
+        <label class="sub-wrapper" for="batch">Select Temperature</label>
+        <select name="fromUnit" id="fromUnit">
+            <option>Celsius (°C)</option>
+            <option>Fahrenheit (°F)</option>
+            <option>Kelvin (K)</option>
+        </select>
+        <select name="toUnit" id="toUnit">
+            <option>Celsius (°C)</option>
+            <option>Fahrenheit (°F)</option>
+            <option>Kelvin (K)</option>
+        </select>
+
+        <input type="button" value="convert" onclick="myDisplay()">
+    </form>
+
+</body>
+</html>
